@@ -1,0 +1,109 @@
+{
+  "features": [
+    {
+      "id": "pwa",
+      "title": "Progressive Web Apps",
+      "baseline": "safe",
+      "docs": "https://web.dev/explore/progressive-web-apps/",
+      "notes": "Installability, offline caching with Service Workers, app-like UX."
+    },
+    {
+      "id": "fetch-api",
+      "title": "Fetch API",
+      "baseline": "safe",
+      "docs": "https://developer.mozilla.org/docs/Web/API/Fetch_API",
+      "notes": "Modern network requests; streaming and abort supported broadly."
+    },
+    {
+      "id": "web-components",
+      "title": "Web Components",
+      "baseline": "safe",
+      "docs": "https://developer.mozilla.org/docs/Web/Web_Components",
+      "notes": "Custom elements, Shadow DOM, HTML templates."
+    },
+    {
+      "id": "webgpu",
+      "title": "WebGPU",
+      "baseline": "emerging",
+      "docs": "https://developer.mozilla.org/docs/Web/API/WebGPU_API",
+      "notes": "High-performance GPU compute/graphics; limited platforms."
+    },
+    {
+      "id": "offscreen-canvas",
+      "title": "OffscreenCanvas",
+      "baseline": "caution",
+      "docs": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvas",
+      "notes": "Great for workers/GPU; not universal on older browsers."
+    },
+    {
+      "id": "sharedarraybuffer",
+      "title": "SharedArrayBuffer",
+      "baseline": "caution",
+      "docs": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer",
+      "notes": "Requires COOP/COEP headers; security restrictions apply."
+    },
+    {
+      "id": "performance-api",
+      "title": "Performance API",
+      "baseline": "safe",
+      "docs": "https://developer.mozilla.org/docs/Web/API/Performance_API",
+      "notes": "Measure performance timing, marks, and long tasks."
+    },
+    {
+      "id": "long-tasks",
+      "title": "Long Tasks API",
+      "baseline": "safe",
+      "docs": "https://developer.mozilla.org/docs/Web/API/Long_Tasks_API",
+      "notes": "Detect main thread jank >50ms to improve UX."
+    },
+    {
+      "id": "resource-timing",
+      "title": "Resource Timing API",
+      "baseline": "safe",
+      "docs": "https://developer.mozilla.org/docs/Web/API/Resource_Timing_API",
+      "notes": "Detailed network timings for assets."
+    },
+    {
+      "id": "web-extensions",
+      "title": "Web Extensions",
+      "baseline": "safe",
+      "docs": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions",
+      "notes": "Cross-browser extension APIs."
+    },
+    {
+      "id": "manifest-v3",
+      "title": "Manifest V3",
+      "baseline": "safe",
+      "docs": "https://developer.chrome.com/docs/extensions/mv3/intro/",
+      "notes": "Service Worker-based background; permissions changes."
+    },
+    {
+      "id": "storage-api",
+      "title": "Storage API (Web Extensions)",
+      "baseline": "safe",
+      "docs": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage",
+      "notes": "Persist settings and data across sessions."
+    },
+    {
+      "id": "modules",
+      "title": "JavaScript Modules",
+      "baseline": "safe",
+      "docs": "https://developer.mozilla.org/docs/Web/JavaScript/Guide/Modules",
+      "notes": "Native ES modules supported in modern browsers."
+    },
+    {
+      "id": "mdn-compat-data",
+      "title": "MDN Browser Compat Data",
+      "baseline": "safe",
+      "docs": "https://github.com/mdn/browser-compat-data",
+      "notes": "Machine-readable compatibility source."
+    },
+    {
+      "id": "clipboard-api",
+      "title": "Clipboard API",
+      "baseline": "safe",
+      "docs": "https://developer.mozilla.org/docs/Web/API/Clipboard_API",
+      "notes": "Programmatic copy/paste; permission-gated."
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+# 🚀 Baseline AI
+
 Baseline AI is an **AI-powered hackathon toolkit** designed to accelerate project setup, integrate Baseline web feature data, and enable **real-time collaboration** for developers. Built for the [Baseline Tooling Hackathon](https://baseline.devpost.com), this project helps teams create modern web solutions faster.
 
 ---
